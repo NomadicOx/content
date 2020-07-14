@@ -21,5 +21,5 @@ GCS_BUILD_BUCKET="marketplace-dist-dev"
 SOURCE_PATH="content/packs"
 
 echo "Copying master files"
-gsutil -m cp -r "gs://$GCS_MARKET_BUCKET/$SOURCE_PATH" "gs://$GCS_BUILD_BUCKET/backup_14_7_20/$SOURCE_PATH"
+gsutil -m cp -r "gs://$GCS_MARKET_BUCKET/$SOURCE_PATH" "gs://$GCS_BUILD_BUCKET/backup_14_7_20-most_recent/$SOURCE_PATH"
 echo "Finished copying successfully."
